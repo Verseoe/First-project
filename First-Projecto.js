@@ -4,6 +4,6 @@ const Celsius = Kelvin - 273;
 // i convert K to C by subtracting
 let fahrenheit = Celsius * (9 / 5) + 32;
 // convert F to C
-fahrenheit = console.log(Math.floor(fahrenheit));
+fahrenheit = Math.floor(fahrenheit);
 
-console.log("The temperature is TEMPERATURE degrees Fahrenheit.");
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
